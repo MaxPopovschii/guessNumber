@@ -6,7 +6,7 @@ const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
 
-document.querySelector(".number").textContent = number;
+
 document.querySelector(".btn_check").addEventListener("click", () => {
   const guess = Number(document.querySelector(".guess").value);
   console.log(guess);
